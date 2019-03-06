@@ -1,4 +1,25 @@
+import java.util.Arrays;
+
 public class MazeSolver {
+
+    public Location findStartLocation(char[][] maze) {
+        Location returnLocation = new Location(-1,-1);
+
+        for (int x = 0; x < maze.length ; x++) {
+            for (int y = 0; y < maze.length; y++) {
+                if (maze[x][y] == 's') {
+                    returnLocation.setX(x);
+                    returnLocation.setY(y);
+                    break;
+                }
+            }
+            if (returnLocation.getY() != -1) {
+                break;
+            }
+        }
+
+        return returnLocation;
+    }
 
     public boolean solveMaze(char[][] maze, Location location, char[][] visitedMaze) {
         boolean solved = false;
@@ -12,13 +33,17 @@ public class MazeSolver {
 
         if ((newX >= lenMaze) || (newY >= lenMaze) || (newX < 0) || (newY < 0) || (maze[newX][newY] == '0')) {
             solved = false;
+            printCharArray(myVisitedMaze);
         } else if (maze[newX][newY] == 'e') {
             solved = true;
+            myVisitedMaze[newX][newY] = 'e';
+            printCharArray(myVisitedMaze);
         } else if ((maze[newX][newY] == '1') || (maze[newX][newY] == 's')) {
             if ((newX < lenMaze) && (visitedMaze[newX][newY] != 'v')) {
                 myVisitedMaze[newX][newY] = 'v';
                 nextX = newX + 1; nextY = newY;
                 Location nextLocation = new Location(nextX,nextY);
+                printCharArray(myVisitedMaze);
                 solved = solveMaze(maze, nextLocation, myVisitedMaze);
                 if (solved) return solved;
             }
@@ -26,6 +51,7 @@ public class MazeSolver {
                 myVisitedMaze[newX][newY] = 'v';
                 nextX = newX - 1; nextY = newY;
                 Location nextLocation = new Location(nextX,nextY);
+                printCharArray(myVisitedMaze);
                 solved = solveMaze(maze, nextLocation,myVisitedMaze);
                 if (solved) return solved;
             }
@@ -33,6 +59,7 @@ public class MazeSolver {
                 myVisitedMaze[newX][newY] = 'v';
                 nextX = newX; nextY = newY + 1;
                 Location nextLocation = new Location(nextX,nextY);
+                printCharArray(myVisitedMaze);
                 solved = solveMaze(maze, nextLocation,myVisitedMaze);
                 if (solved) return solved;
             }
@@ -40,6 +67,7 @@ public class MazeSolver {
                 myVisitedMaze[newX][newY] = 'v';
                 nextX = newX; nextY = newY - 1;
                 Location nextLocation = new Location(nextX,nextY);
+                printCharArray(myVisitedMaze);
                 solved = solveMaze(maze, nextLocation,myVisitedMaze);
                 if (solved) return solved;
             }
@@ -66,5 +94,16 @@ public class MazeSolver {
         }
 
         return returnMaze;
+    }
+
+    public void printCharArray(char[][] inArray) {
+        return;
+//        String outString = Arrays.deepToString(inArray);
+//        outString = outString.replaceAll("\\[\\[","*");
+//        outString = outString.replaceAll("]]", "*" + "---" + System.getProperty("line.separator"));
+//        outString = outString.replaceAll("]","*" + System.getProperty("line.separator"));
+//        outString = outString.replaceAll(", \\[","*");
+//        outString = outString.replaceAll(", ","");
+//        System.out.println(outString);
     }
 }

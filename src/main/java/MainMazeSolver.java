@@ -11,9 +11,10 @@ public class MainMazeSolver {
                 {'1','0','0'},
                 {'1','1','e'}};
 
-        Location startLocation = new Location(0,0);
+        Location startLocation;
 
         MazeSolver mazeSolver = new MazeSolver();
+        startLocation = mazeSolver.findStartLocation(maze);
         char visited[][] = mazeSolver.initializeVisitedMaze(maze.length);
 
         boolean mazedSolved = mazeSolver.solveMaze(maze, startLocation, visited);
