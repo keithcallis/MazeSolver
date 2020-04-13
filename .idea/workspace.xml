@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d0b07b-181f-4d37-9d91-57e1d1c73b25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SolveMazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SolveMazeTest.java" afterDir="false" />
     </list>
@@ -22,13 +21,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1WSbkvDOJFNIL8WeGgLuEUkfn16" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -36,7 +28,6 @@
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -64,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolveMazeTest">
+  <component name="RunManager" selected="JUnit.SolveMazeTest.Maze_30x30_NotSolved_Test">
     <configuration name="SolveMazeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MazeSolver" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,11 +85,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolveMazeTest.Maze_30x30_Solved_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolveMazeTest.Maze_30x30_NotSolved_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MazeSolver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SolveMazeTest" />
-      <option name="METHOD_NAME" value="Maze_30x30_Solved_Test" />
+      <option name="METHOD_NAME" value="Maze_30x30_NotSolved_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,25 +107,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolveMazeTest.Maze_30x30_NotSolved_Test" />
         <item itemvalue="JUnit.SolveMazeTest" />
         <item itemvalue="JUnit.SolveMazeTest.Maze_100x100_Solved4_Test" />
         <item itemvalue="JUnit.SolveMazeTest.Maze_100x100_Solved_Test" />
         <item itemvalue="JUnit.SolveMazeTest.Maze_3x3_Solved_Test" />
-        <item itemvalue="JUnit.SolveMazeTest.Maze_30x30_Solved_Test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -151,33 +130,34 @@
       <workItem from="1551903411874" duration="8852000" />
       <workItem from="1579146101606" duration="525000" />
       <workItem from="1584491836443" duration="3555000" />
+      <workItem from="1586740330211" duration="1084000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1579146358178">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1579146358178" />
-    <state width="1727" height="147" key="GridCell.Tab.0.bottom" timestamp="1584496017067">
+    <state width="1727" height="147" key="GridCell.Tab.0.bottom" timestamp="1586741415856">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1584496017067" />
-    <state width="1727" height="147" key="GridCell.Tab.0.center" timestamp="1584496017067">
+    <state width="1727" height="147" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
+    <state width="1727" height="147" key="GridCell.Tab.0.center" timestamp="1586741415856">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1584496017067" />
-    <state width="1727" height="147" key="GridCell.Tab.0.left" timestamp="1584496017067">
+    <state width="1727" height="147" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
+    <state width="1727" height="147" key="GridCell.Tab.0.left" timestamp="1586741415856">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1584496017067" />
-    <state width="1727" height="147" key="GridCell.Tab.0.right" timestamp="1584496017067">
+    <state width="1727" height="147" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
+    <state width="1727" height="147" key="GridCell.Tab.0.right" timestamp="1586741415856">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1584496017067" />
+    <state width="1727" height="147" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
     <state x="492" y="183" key="SettingsEditor" timestamp="1579146367555">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
