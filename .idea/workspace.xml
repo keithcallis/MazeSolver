@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="09d0b07b-181f-4d37-9d91-57e1d1c73b25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -21,6 +24,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="5f405b07-d448-4405-a159-3a07f25c19c2" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1WSbkvDOJFNIL8WeGgLuEUkfn16" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -37,6 +48,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551912618806" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -55,7 +67,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolveMazeTest.Maze_30x30_NotSolved_Test">
+  <component name="RunManager" selected="JUnit.SolveMazeTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in MazeSolver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MazeSolver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolveMazeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MazeSolver" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,41 +96,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolveMazeTest.Maze_100x100_Solved4_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolveMazeTest.Maze_100x100_NotSolved4_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MazeSolver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SolveMazeTest" />
-      <option name="METHOD_NAME" value="Maze_100x100_Solved4_Test" />
+      <option name="METHOD_NAME" value="Maze_100x100_NotSolved4_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolveMazeTest.Maze_100x100_Solved_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolveMazeTest.Maze_100x100_Solved_Longer_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MazeSolver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SolveMazeTest" />
-      <option name="METHOD_NAME" value="Maze_100x100_Solved_Test" />
+      <option name="METHOD_NAME" value="Maze_100x100_Solved_Longer_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolveMazeTest.Maze_30x30_NotSolved_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolveMazeTest.Maze_15x15_Solved_LongRunning_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MazeSolver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SolveMazeTest" />
-      <option name="METHOD_NAME" value="Maze_30x30_NotSolved_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolveMazeTest.Maze_3x3_Solved_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MazeSolver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolveMazeTest" />
-      <option name="METHOD_NAME" value="Maze_3x3_Solved_Test" />
+      <option name="METHOD_NAME" value="Maze_15x15_Solved_LongRunning_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,14 +128,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolveMazeTest.Maze_30x30_NotSolved_Test" />
         <item itemvalue="JUnit.SolveMazeTest" />
-        <item itemvalue="JUnit.SolveMazeTest.Maze_100x100_Solved4_Test" />
-        <item itemvalue="JUnit.SolveMazeTest.Maze_100x100_Solved_Test" />
-        <item itemvalue="JUnit.SolveMazeTest.Maze_3x3_Solved_Test" />
+        <item itemvalue="JUnit.SolveMazeTest.Maze_100x100_NotSolved4_Test" />
+        <item itemvalue="JUnit.SolveMazeTest.Maze_100x100_Solved_Longer_Test" />
+        <item itemvalue="JUnit.All in MazeSolver" />
+        <item itemvalue="JUnit.SolveMazeTest.Maze_15x15_Solved_LongRunning_Test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -131,37 +153,38 @@
       <workItem from="1579146101606" duration="525000" />
       <workItem from="1584491836443" duration="3555000" />
       <workItem from="1586740330211" duration="1084000" />
+      <workItem from="1589413685982" duration="338000" />
+      <workItem from="1590793556706" duration="3497000" />
+      <workItem from="1591919433910" duration="842000" />
+      <workItem from="1592961076457" duration="330000" />
+      <workItem from="1592963123986" duration="105000" />
+      <workItem from="1597928753146" duration="556000" />
+      <workItem from="1599486353599" duration="516000" />
+      <workItem from="1601248320434" duration="138000" />
+      <workItem from="1601687694268" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1579146358178">
+    <state width="1727" height="334" key="GridCell.Tab.0.bottom" timestamp="1601687847943">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1579146358178" />
-    <state width="1727" height="147" key="GridCell.Tab.0.bottom" timestamp="1586741415856">
+    <state width="1727" height="334" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
+    <state width="1727" height="334" key="GridCell.Tab.0.center" timestamp="1601687847943">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
-    <state width="1727" height="147" key="GridCell.Tab.0.center" timestamp="1586741415856">
+    <state width="1727" height="334" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
+    <state width="1727" height="334" key="GridCell.Tab.0.left" timestamp="1601687847943">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
-    <state width="1727" height="147" key="GridCell.Tab.0.left" timestamp="1586741415856">
+    <state width="1727" height="334" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
+    <state width="1727" height="334" key="GridCell.Tab.0.right" timestamp="1601687847943">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
-    <state width="1727" height="147" key="GridCell.Tab.0.right" timestamp="1586741415856">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1727" height="147" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1586741415856" />
-    <state x="492" y="183" key="SettingsEditor" timestamp="1579146367555">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="492" y="183" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1579146367555" />
+    <state width="1727" height="334" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
   </component>
   <component name="masterDetails">
     <states>
