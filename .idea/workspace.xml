@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09d0b07b-181f-4d37-9d91-57e1d1c73b25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SolveMazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SolveMazeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -68,13 +72,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SolveMazeTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,6 +168,8 @@
       <workItem from="1599486353599" duration="516000" />
       <workItem from="1601248320434" duration="138000" />
       <workItem from="1601687694268" duration="153000" />
+      <workItem from="1602640809853" duration="532000" />
+      <workItem from="1603041366553" duration="1557000" />
     </task>
     <servers />
   </component>
@@ -169,37 +177,37 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1727" height="334" key="GridCell.Tab.0.bottom" timestamp="1601687847943">
+    <state width="1727" height="334" key="GridCell.Tab.0.bottom" timestamp="1603042934199">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="334" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
-    <state width="1727" height="334" key="GridCell.Tab.0.center" timestamp="1601687847943">
+    <state width="1727" height="334" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1603042934199" />
+    <state width="1727" height="334" key="GridCell.Tab.0.center" timestamp="1603042934199">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="334" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
-    <state width="1727" height="334" key="GridCell.Tab.0.left" timestamp="1601687847943">
+    <state width="1727" height="334" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1603042934199" />
+    <state width="1727" height="334" key="GridCell.Tab.0.left" timestamp="1603042934199">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="334" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
-    <state width="1727" height="334" key="GridCell.Tab.0.right" timestamp="1601687847943">
+    <state width="1727" height="334" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1603042934199" />
+    <state width="1727" height="334" key="GridCell.Tab.0.right" timestamp="1603042934199">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1727" height="334" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1601687847943" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1727" height="334" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1603042934199" />
+    <state x="485" y="175" key="Maven.ArtifactSearchDialog" timestamp="1602640914331">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="485" y="175" key="Maven.ArtifactSearchDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1602640914331" />
+    <state x="435" y="94" key="SettingsEditor" timestamp="1603042390546">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="435" y="94" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1603042390546" />
+    <state x="663" y="253" width="585" height="534" key="find.popup" timestamp="1603041621383">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="663" y="253" width="585" height="534" key="find.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1603041621383" />
+    <state x="611" y="243" width="672" height="677" key="run.anything.popup" timestamp="1603042650660">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="611" y="243" width="672" height="677" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1603042650660" />
   </component>
 </project>
