@@ -1,5 +1,4 @@
 import org.junit.*;
-import org.junit.Assert;
 
 public class SolveMazeTest {
 
@@ -92,6 +91,34 @@ public class SolveMazeTest {
                 {'0','1','0','0','0','0','0','0','1','0'},
                 {'0','1','0','0','0','0','0','0','1','0'},
                 {'1','1','1','1','1','1','1','1','1','1'},
+        };
+
+        startLocation = solver.findStartLocation(maze);
+        char visited[][] = solver.initializeVisitedMaze(maze.length);
+
+        boolean actual = solver.solveMaze(maze,startLocation,visited);
+
+        Assert.assertEquals("10 x 10 maze solved", true, actual);
+
+    }
+
+    @Test
+    public void Maze_10x10_Solved_Longer_Test() {
+
+        System.out.println("in Maze_10x10_Solved_Longer_Test");
+
+        char maze[][] = new char[][]{
+                {'s','1','1','1','1','1','1','1','1','1','1'},
+                {'0','0','0','0','0','0','0','0','0','1','1'},
+                {'1','1','1','1','1','1','1','1','1','1','1'},
+                {'1','0','0','0','0','0','0','1','0','1','0'},
+                {'1','1','1','1','1','1','1','1','1','1','1'},
+                {'0','0','0','0','0','0','0','1','0','1','1'},
+                {'1','1','1','1','1','1','1','1','1','1','1'},
+                {'1','0','0','0','0','0','0','1','0','1','0'},
+                {'1','1','1','1','1','1','1','1','1','1','1'},
+                {'0','0','0','0','0','0','0','0','0','0','1'},
+                {'e','1','1','1','1','1','1','1','1','1','1'},
         };
 
         startLocation = solver.findStartLocation(maze);
